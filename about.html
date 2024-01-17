@@ -1,0 +1,65 @@
+<?php
+session_start();
+
+// Check if session exists
+if(isset($_SESSION["UID"])) {
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="aboutstyle.css">
+    <title>Trio Maut - Song Collection</title>
+</head>
+
+<body>
+  <header>
+        <h2 class="logo">Edit Song</h2>
+
+        <nav class="navigation">
+            <a href="menu.php">Home</a>
+            <a href="song_form.php">Register Song</a>
+            <a href="song_editview.php">Edit Song</a>
+            <a href="song_deleteview.php">Delete Song</a>
+            <a href="viewSong.php">View Song</a>
+        </nav>
+
+        <nav class="navigation1">
+            <a href="logout.php">Log Out</a>
+        </nav>
+    </header>
+	
+<div class="wrapper">
+<img src="nyaa.jpeg" alt="daniel hanif" width="250" height="300">
+<center>
+<p> AHMAD DANIEL HANIF</p>
+<p> DC98838</p>
+</center>
+</div>
+
+<div class="wrapper1">
+<img src="mai.jpeg" alt="kimy" width="250" height="300">
+<center>
+<p> ARIFF HAKIMY</p>
+<p> DC98768</p>
+</center>
+</div>
+
+<div class="wrapper2">
+<img src="wan.jpeg" alt="syazwan" width="250" height="300">
+<center>
+<p> FAKHRUL SYAZWAN</p>
+<p> DC98813</p>
+</center>
+</div>
+
+<div class="wrapper3">
+<img src="ril.jpeg" alt="hairil" width="250" height="300">
+<center>
+<p> WAN HAIRIL</p>
+<p> DC98786</p>
+</center>
+</div>
